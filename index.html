@@ -1,31 +1,24 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="de">
-
 <head>
     <meta charset="UTF-8">
-    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-        name="viewport">
-    <meta content="ie=chrome" http-equiv="X-UA-Compatible">
-
-    <title>AngelZCraft | Homepage</title>
-
-
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <script src="bootstrap/js/bootstrap.js"></script>
-
-
-    <link href="style/index.css" rel="stylesheet">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AngelZCraft | Startseite</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/index.css">
 </head>
 
 <body>
-
-
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container-fluid">
-            <div aria-labelledby="offcanvasDarkNavbarLabel" class="offcanvas offcanvas-start text-bg-dark"
-                id="offcanvasDarkNavbar" tabindex="-1">
-
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+                aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="offcanvas offcanvas-start text-bg-dark" id="offcanvasDarkNavbar" tabindex="-1">
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
                         <li class="nav-item">
@@ -33,68 +26,57 @@
                                 <img src="image/logo.png" alt="Logo">
                             </a>
                         </li>
-
-
+    
                         <li class="nav-item">
-                            <a class="nav-link active" href="index.html">
+                            <a class="nav-link active" href="forum.html">
                                 <img src="icons/forum_icon.png">
                                 Forum
                             </a>
                         </li>
-
+    
                         <li class="nav-item">
-                            <a class="nav-link active" href="index.html">
+                            <a class="nav-link active" href="shop.html">
                                 <img src="icons/shop_icon.png">
                                 Shop
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="index.html">
+                            <a class="nav-link active" href="regeln.html">
                                 <img src="icons/rules_icon.png">
                                 Regeln
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="index.html">
+                            <a class="nav-link active" href="vote.html">
                                 <img src="icons/vote_icon.png">
                                 Vote
                             </a>
                         </li>
-
-
-
-
                     </ul>
-
+    
                     <ul class="navbar-nav ml-auto mr-3">
                         <li class="nav-item">
-                            <a class="nav-link">
+                            <a href="anmelden.html" class="nav-link">
                                 Anmelden
                             </a>
                         </li>
-
+    
                         <li class="nav-item">
-                            <a class="nav-link active register-link">
+                            <a href="registrieren.html" class="nav-link active register-link">
                                 Registrieren
                             </a>
                         </li>
                     </ul>
-
                 </div>
-
-
             </div>
-
         </div>
     </nav>
-
-
-    <!-- Begrüßungstitel -->
+    <!-- END NAVBAR -->
+    <!-- TITLE -->
     <div class="container welcome-section">
         <img src="image/text.png" alt="welcomes">
     </div>
-
-    <script src="js/navbar.js"></script>
+    <!-- END TITLE -->
+    
 </body>
-
 </html>
